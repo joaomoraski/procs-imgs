@@ -10,3 +10,4 @@ Após isso é só executar o código e responder a pergunta que o programa faz a
 ```
 python3 pratica5.py
 ```
+Para fechar o código é so dar um Alt + F4 na tela quando aparecer as imagens
