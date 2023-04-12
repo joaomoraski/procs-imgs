@@ -24,12 +24,9 @@ def piecewiseLinear(img, r, s):
                             break
     return imgSaida
 
-
-
 def main():
     # Carrega a imagem de teste
     img = cv2.imread("pratica4.png")
-
     # Criando uma lista de arrays que vai ser os valores de teste
     entradasR = [[0, 69, 185 , 255], [69, 69, 200, 255], [25, 125,200,140], [198,248,95,195]]
     entradasS = [[0, 124, 161, 255], [0,161,124,255], [20,15,88,99], [220,188,177,222]]
@@ -51,8 +48,7 @@ def main():
         cv2.imwrite("imagemTransformada"  + str(i+1) + ".png", imgTransformed)
         ax[i][1].imshow(imgTransformed)
         ax[i][1].set_title('Imagem transformada usando ' + str(entradasR[i]) + " " + str(entradasS[i]))
-
-    # Exibe as imagens transformada
+    # Exibe as imagens transformadas
     plt.show()
 
 main()

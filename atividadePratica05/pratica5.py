@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 def main():
     imagens = ["pratica5.png", "pratica5_c.png"]
     print("0 - pratica5.png\n1 - pratica5_c.png")
